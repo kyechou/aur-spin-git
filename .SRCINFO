@@ -1,6 +1,6 @@
 pkgbase = spin-git
 	pkgdesc = Explicit state logic model checking tool
-	pkgver = 6.5.2.r23.g6651f97
+	pkgver = 6.5.2.r48.g043fc11
 	pkgrel = 1
 	url = https://spinroot.com/
 	arch = i686
@@ -8,8 +8,6 @@ pkgbase = spin-git
 	license = custom:BSD3
 	depends = glibc
 	optdepends = tcl: ispin graphical interface
-	optdepends = swarm: improved performance on large verification problems
-	optdepends = modex: extract verification models from implementation C code
 	optdepends = ispin: GUI for Spin
 	provides = spin
 	conflicts = spin
@@ -17,4 +15,3 @@ pkgbase = spin-git
 	sha512sums = SKIP
 
 pkgname = spin-git
-

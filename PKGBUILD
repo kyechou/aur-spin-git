@@ -1,13 +1,11 @@
 # Maintainer: Kuan-Yen Chou <kuanyenchou@gmail.com>
 
 pkgname=spin-git
-pkgver=6.5.2.r23.g6651f97
+pkgver=6.5.2.r48.g043fc11
 pkgrel=1
 pkgdesc='Explicit state logic model checking tool'
 depends=('glibc')
 optdepends=('tcl: ispin graphical interface'
-            'swarm: improved performance on large verification problems'
-            'modex: extract verification models from implementation C code'
             'ispin: GUI for Spin')
 arch=('i686' 'x86_64')
 url='https://spinroot.com/'
